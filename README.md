@@ -16,11 +16,8 @@ DB_PASSWORD=
 # Acesse a pasta do projeto no terminal/cmd e Instale as dependências Composer
 $ composer install
 
-# Acesse a pasta do projeto no terminal/cmd e Instale as dependências Composer
-$ composer install
-
-# Execute os comandos para instalar depêndencias da lib <https://laravel-admin.org/> <br />
-$ php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
+# Execute os comandos para instalar depêndencias da lib <https://laravel-admin.org/> 
+$ php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider" <br />
 $ php artisan admin:install
 
 # Execute a aplicação
